@@ -3,7 +3,7 @@ import { ReactComponent as GoogleImg } from "../../img/google.svg";
 import { ReactComponent as GitImg } from "../../img/git.svg";
 import { LoginContainer } from "./registerPage.styled";
 import { useFormik } from "formik";
-import { useState } from "react";
+
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import authOperations from "../../redux/auth/auth-operations";
@@ -11,7 +11,6 @@ import authOperations from "../../redux/auth/auth-operations";
 export default function RegisterPage() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [showPassword, setShowPassword] = useState(false);
   const refresh_token = useSelector((state) => state.auth.refresh_token);
   console.log("refresh_token", refresh_token);
   const token_expire = useSelector((state) => state.auth.token_expire);
@@ -32,18 +31,6 @@ export default function RegisterPage() {
     },
   });
 
-  const handleTogglePassword = () => {
-    setShowPassword((prevShowPassword) => !prevShowPassword);
-  };
-
-  const getHidePassword = () => {
-    return (
-      <div
-        className={showPassword ? "HidePassword" : "ShowPassword"}
-        onClick={handleTogglePassword}
-      />
-    );
-  };
   return (
     <LoginContainer>
       <div className="ContentContainer">

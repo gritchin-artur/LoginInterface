@@ -42,9 +42,9 @@ button{
   cursor: pointer;
 }
 
-select {
+/* select {
   -webkit-appearance: none;
-}
+} */
 
 div[id="root"]{
 
