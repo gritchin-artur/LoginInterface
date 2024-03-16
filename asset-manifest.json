@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/LoginInterface/static/css/main.7acaea2f.css",
-    "main.js": "/LoginInterface/static/js/main.07d3183d.js",
+    "main.js": "/LoginInterface/static/js/main.2c763e75.js",
+    "static/js/788.70d17498.chunk.js": "/LoginInterface/static/js/788.70d17498.chunk.js",
+    "static/media/qencode.svg": "/LoginInterface/static/media/qencode.8d512c8cc9b167cce09262bf0c04679a.svg",
+    "static/media/git.svg": "/LoginInterface/static/media/git.454176ecdb6e561afc58791bc92670a1.svg",
     "index.html": "/LoginInterface/index.html",
+    "static/media/google.svg": "/LoginInterface/static/media/google.330794451d32bb3adfdbb621ecc67d69.svg",
+    "static/media/eye-off.svg": "/LoginInterface/static/media/eye-off.5b79f6604c00caac7ff440292afb980e.svg",
+    "static/media/eye.svg": "/LoginInterface/static/media/eye.561e8ec3e4f1072089624ee4031394db.svg",
     "main.7acaea2f.css.map": "/LoginInterface/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/LoginInterface/static/js/main.07d3183d.js.map"
+    "main.2c763e75.js.map": "/LoginInterface/static/js/main.2c763e75.js.map",
+    "788.70d17498.chunk.js.map": "/LoginInterface/static/js/788.70d17498.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.2c763e75.js"
   ]
 }
