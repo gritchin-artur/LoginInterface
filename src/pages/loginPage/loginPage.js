@@ -4,7 +4,7 @@ import { ReactComponent as GitImg } from "../../img/git.svg";
 import { LoginContainer } from "./liginPage.styled";
 import { useFormik } from "formik";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import authOperations from "../../redux/auth/auth-operations";
 
